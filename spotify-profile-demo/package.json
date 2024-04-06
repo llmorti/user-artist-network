@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "spotify-profile-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.9.3",
-    "vite": "^4.0.0"
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@types/spotify-api": "^0.0.25"
   }
 }
